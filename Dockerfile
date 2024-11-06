@@ -17,4 +17,4 @@ COPY server.js .
 EXPOSE 3000
 
 # 6. Define the command to run the container starts.
-CMD ["node", "/src/app/server.js"]
+CMD ["npm", "start"]
